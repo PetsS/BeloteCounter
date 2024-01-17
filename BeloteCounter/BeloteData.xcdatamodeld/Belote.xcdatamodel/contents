@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Belote" representedClassName="Belote" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="player1" optional="YES" attributeType="String"/>
+        <attribute name="player2" optional="YES" attributeType="String"/>
+        <attribute name="player3" optional="YES" attributeType="String"/>
+        <attribute name="player4" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="scoreEqual" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="scoreTeamA" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="scoreTeamB" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="teamA" optional="YES" attributeType="String"/>
+        <attribute name="teamB" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Belote" positionX="-54" positionY="-9" width="128" height="224"/>
+    </elements>
+</model>
